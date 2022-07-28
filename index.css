@@ -1,0 +1,34 @@
+body > section{
+    display: flex;
+    flex-direction:row ;
+    padding:10%;
+}
+
+section>.intro{
+    padding:7% ;
+}
+
+section >.intro > button{
+    background-color: blue;
+    padding: 10px 8px;
+    text-decoration: none;
+    border-style: none;
+}
+
+section >.intro > button>a{
+    color:white;
+    text-decoration: none;
+}
+
+body > section > .intro > h1{
+    font-size: 48px;
+}
+
+section > div> img{
+    border: radius 75%;
+}
+
+/* section > .intro > h1 > span{
+    color: brown;
+} */
+
